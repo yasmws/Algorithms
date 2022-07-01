@@ -10,7 +10,6 @@ typedef struct e
 
 }E;
 
-
 int qtd;
 
 char** criar(){
@@ -75,7 +74,6 @@ int colision(int k, int j, char** matrix){
         return -1;
     }else return colision(k, j+1, matrix);
 }
-
 
 void inserir(char** matrix, char* string){
 
